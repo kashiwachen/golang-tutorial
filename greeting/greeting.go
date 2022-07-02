@@ -1,5 +1,5 @@
 // Declare greeting package, and hold the related functions
-package main
+package greeting
 
 import "fmt"
 
@@ -8,6 +8,6 @@ import "fmt"
 func Hello(name string) string {
 	// Declare a message variable.
 	// ":=" declare and init a variable
-	message := fmt.Spriintf("Hi, %v. Welcome!", name)
+	message := fmt.Sprintf("Hi, %v. Welcome!", name)
 	return message
 }
