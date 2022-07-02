@@ -8,5 +8,5 @@ import (
 
 func main() {
 	message := greeting.Hello("Oscar")
-	fmt.PrintIn(message)
+	fmt.Println(message)
 }
